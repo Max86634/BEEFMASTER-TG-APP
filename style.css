@@ -1,0 +1,75 @@
+:root {
+  --padding: 120px;
+  --brend_color: rgb(255, 64, 0);
+}
+
+/* Farm-Main */
+h1{
+  font-size: 35px;
+  color: burlywood;
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial', sans-serif;
+}
+.farm__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 30%;
+  margin-bottom: 0;
+
+  background-color: rgba(0, 0, 0, 0.437);
+}
+
+.coin__img {
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#coin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+
+#counter {
+  
+  margin-bottom: 30%;
+  position: fixed;
+  
+  color: #fff;
+  font-size: 35px;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  z-index: 2;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100vw;
+  height: 35px;
+
+  margin-bottom: 0;
+
+  background-image: url(../img/background-billboard.png);
+
+  color: rgb(255, 64, 0);
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  margin-top: 20px;
+}
+body{
+  background-image: url(img/background-billboard.png);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
